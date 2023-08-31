@@ -1,0 +1,57 @@
+
+#profile{
+width: 60px;
+margin: 0.3rem;
+
+border-radius: 50%;
+}
+.main-div{
+    width: 20%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 0.3rem;
+    border-radius: 15px;
+}
+.postImage{
+width: 100%;
+padding: 0px;
+margin: 0px;
+}
+.date{
+    color: #BABABC;
+  margin-top: 0px;
+}
+.postHead{
+    display: flex;
+   }
+   .postHead h2{
+    margin-bottom:0.5rem;
+   
+   }
+.postFooter{
+    /* margin: 10px; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.button{
+    color: #59626B;
+    background-color: #fafafa;
+    border-radius: 8px;
+    /* padding: 0.3rem 1rem; */
+    margin: 0 1rem;
+    flex-grow: 1;
+    text-align: center;
+    cursor: pointer;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media screen and (max-width: 820px) {
+   .main-div{
+    width: 90%;
+   }
+    }
